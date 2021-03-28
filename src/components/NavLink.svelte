@@ -36,7 +36,7 @@
 
 
 <div class="link-container">
-    <a {href} class:selected={segment === href} sapper:prefetch>
+    <a href={href.endsWith('/') ? href : href + '/'} class:selected={segment === href} sapper:prefetch>
         <slot/>
     </a>
 </div>

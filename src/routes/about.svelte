@@ -179,4 +179,4 @@
     Outil de compression d'images : <a href="https://tinypng.com" rel="noopener noreferrer">Tinypng</a>
 </p>
 
-<a href="changelogs">Notes de changement</a>
+<a href="changelogs/">Notes de changement</a>

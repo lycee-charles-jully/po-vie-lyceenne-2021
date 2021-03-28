@@ -36,7 +36,7 @@
         croissants, etc.
         <br/>
         Elle soutient les clubs et divers ateliers, s’occupe de l’aménagement du foyer, organise des élèvements au sein
-        du lycée,… <a href="cvl">Le Conseil de la vie lycéenne (CVL)</a> travaille avec elle, pour l'aider à réaliser
+        du lycée,… <a href="cvl/">Le Conseil de la vie lycéenne (CVL)</a> travaille avec elle, pour l'aider à réaliser
         ses projets et à les faire connaître.
     </p>
     <p>

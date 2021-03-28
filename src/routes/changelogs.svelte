@@ -25,6 +25,14 @@
 </figure>
 
 
+<h2>v1.2.9 - 28/03/2021 23:05</h2>
+
+<ul>
+    <li>Mise en ligne du projet sur GitHub</li>
+    <li>Ajout d'un / à la fin de toutes les URLs pour être en accord avec Netlify</li>
+</ul>
+
+
 <h2>v1.2.8 - 18/03/2021 20:59</h2>
 
 <ul>
