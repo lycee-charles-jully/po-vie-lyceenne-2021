@@ -30,6 +30,7 @@
 <ul>
     <li>Mise en ligne du projet sur GitHub</li>
     <li>Ajout d'un / à la fin de toutes les URLs pour être en accord avec Netlify</li>
+    <li>Suppression du bouton conférences (vu qu'elles sont un peu passées)</li>
 </ul>
 
 

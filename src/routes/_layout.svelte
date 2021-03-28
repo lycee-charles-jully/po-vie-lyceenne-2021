@@ -1,7 +1,6 @@
 <script>
     import { setContext } from 'svelte';
     import Footer from '../components/Footer.svelte';
-    import ConferenceAccess from '../components/ConferenceAccess.svelte';
     import Nav from '../components/Nav.svelte';
 
     export let segment;
@@ -25,6 +24,6 @@
     <slot/>
 </main>
 
-<ConferenceAccess/>
+<!--<ConferenceAccess/>-->
 
 <Footer/>
