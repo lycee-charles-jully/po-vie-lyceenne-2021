@@ -1,12 +1,12 @@
 <script>
-    import Meta from '../components/Meta.svelte';
-    import ImagesDisplay from '../components/ImagesDisplay.svelte';
-    import echecs1Image from 'images/echecs/echecs-1.jpg';
-    import echecs2Image from 'images/echecs/echecs-2.jpg';
-    import echecs3Image from 'images/echecs/echecs-3.jpg';
-    import echecs4Image from 'images/echecs/echecs-4.jpg';
-    import echecs5Image from 'images/echecs/echecs-5.jpg';
-    import echecs6Image from 'images/echecs/echecs-6.jpg';
+    import Meta from '$lib/Meta.svelte';
+    import ImagesDisplay from '$lib/ImagesDisplay.svelte';
+    import echecs1Image from '$lib/images/echecs/echecs-1.jpg';
+    import echecs2Image from '$lib/images/echecs/echecs-2.jpg';
+    import echecs3Image from '$lib/images/echecs/echecs-3.jpg';
+    import echecs4Image from '$lib/images/echecs/echecs-4.jpg';
+    import echecs5Image from '$lib/images/echecs/echecs-5.jpg';
+    import echecs6Image from '$lib/images/echecs/echecs-6.jpg';
 </script>
 
 

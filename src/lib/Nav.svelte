@@ -1,15 +1,18 @@
 <script>
-    import logoLCJ from 'images/logo-lcj.png';
+    import logoLCJ from '$lib/images/logo-lcj.png';
     import NavDropdown from './NavDropdown.svelte';
     import NavLink from './NavLink.svelte';
+    import { page } from '$app/stores';
 
+    // TODO: switch segment
     export let segment;
+    console.log($page);
 
     let headerBG = getHeaderBG();
 
     function getHeaderBG() {
         let bg;
-        if (segment)
+        if ($page.path !== '/')
             bg = true;
         else if (typeof window === 'undefined')
             bg = false;
@@ -75,7 +78,7 @@
 
 
 <header class:header-bg={headerBG}>
-    <a href="/" sapper:prefetch>
+    <a href="/" sveltekit:prefetch>
         <img alt="Lycée Charles Jully" class="logo" src={logoLCJ} height="50" width="81"/>
     </a>
 

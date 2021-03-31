@@ -1,8 +1,8 @@
 <script>
-    import youtubeIcon from 'icons/youtube.svg';
-    import instagramIcon from 'icons/instagram.svg';
-    import facebookIcon from 'icons/facebook.svg';
-    import emailIcon from 'icons/email.svg';
+    import youtubeIcon from '$lib/icons/youtube.svg';
+    import instagramIcon from '$lib/icons/instagram.svg';
+    import facebookIcon from '$lib/icons/facebook.svg';
+    import emailIcon from '$lib/icons/email.svg';
 </script>
 
 

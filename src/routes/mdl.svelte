@@ -1,14 +1,14 @@
 <script>
-    import Meta from '../components/Meta.svelte';
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
-    import ImagesDisplay from '../components/ImagesDisplay.svelte';
-    import mdl1Image from 'images/mdl/mdl-1.jpg';
-    import mdl2Image from 'images/mdl/mdl-2.jpg';
-    import mdl3Image from 'images/mdl/mdl-3.jpg';
-    import mdl4Image from 'images/mdl/mdl-4.jpg';
-    import mdl5Image from 'images/mdl/mdl-5.jpg';
-    import mdl6Image from 'images/mdl/mdl-6.jpg';
-    import mdl7Image from 'images/mdl/mdl-7.jpg';
+    import Meta from '$lib/Meta.svelte';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
+    import ImagesDisplay from '$lib/ImagesDisplay.svelte';
+    import mdl1Image from '$lib/images/mdl/mdl-1.jpg';
+    import mdl2Image from '$lib/images/mdl/mdl-2.jpg';
+    import mdl3Image from '$lib/images/mdl/mdl-3.jpg';
+    import mdl4Image from '$lib/images/mdl/mdl-4.jpg';
+    import mdl5Image from '$lib/images/mdl/mdl-5.jpg';
+    import mdl6Image from '$lib/images/mdl/mdl-6.jpg';
+    import mdl7Image from '$lib/images/mdl/mdl-7.jpg';
 </script>
 
 

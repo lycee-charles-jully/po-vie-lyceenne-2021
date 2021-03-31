@@ -1,7 +1,7 @@
 <script>
     import { setContext } from 'svelte';
-    import Footer from '../components/Footer.svelte';
-    import Nav from '../components/Nav.svelte';
+    import Footer from '$lib/Footer.svelte';
+    import Nav from '$lib/Nav.svelte';
 
     export let segment;
 

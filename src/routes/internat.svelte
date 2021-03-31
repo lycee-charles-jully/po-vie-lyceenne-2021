@@ -1,12 +1,12 @@
 <script>
-    import Meta from '../components/Meta.svelte';
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
-    import ImagesDisplay from '../components/ImagesDisplay.svelte';
-    import resultats1Image from 'images/internat/resultats-1.png';
-    import resultats2Image from 'images/internat/resultats-2.png';
-    import resultats3Image from 'images/internat/resultats-3.png';
-    import resultats4Image from 'images/internat/resultats-4.png';
-    import resultats5Image from 'images/internat/resultats-5.png';
+    import Meta from '$lib/Meta.svelte';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
+    import ImagesDisplay from '$lib/ImagesDisplay.svelte';
+    import resultats1Image from '$lib/images/internat/resultats-1.png';
+    import resultats2Image from '$lib/images/internat/resultats-2.png';
+    import resultats3Image from '$lib/images/internat/resultats-3.png';
+    import resultats4Image from '$lib/images/internat/resultats-4.png';
+    import resultats5Image from '$lib/images/internat/resultats-5.png';
 </script>
 
 

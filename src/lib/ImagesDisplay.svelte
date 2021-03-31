@@ -8,7 +8,7 @@
     onMount(async () => {
         if (typeof Swiper !== 'undefined' && typeof SwiperSlide !== 'undefined')
             return;
-        const swiper = await import('../helpers/swiper');
+        const swiper = await import('./swiper');
         Swiper = swiper.Swiper;
         SwiperSlide = swiper.SwiperSlide;
     });

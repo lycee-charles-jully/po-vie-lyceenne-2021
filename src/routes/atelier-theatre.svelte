@@ -1,29 +1,29 @@
 <script>
     import { onMount } from 'svelte';
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
-    import Meta from '../components/Meta.svelte';
-    import ImagesDisplay from '../components/ImagesDisplay.svelte';
-    import theatre1Image from 'images/theatre/theatre-1.jpg';
-    import theatre2Image from 'images/theatre/theatre-2.jpg';
-    import theatre3Image from 'images/theatre/theatre-3.jpg';
-    import theatre4Image from 'images/theatre/theatre-4.jpg';
-    import theatre5Image from 'images/theatre/theatre-5.jpg';
-    import theatre6Image from 'images/theatre/theatre-6.jpg';
-    import theatre7Image from 'images/theatre/theatre-7.jpg';
-    import theatre8Image from 'images/theatre/theatre-8.jpg';
-    import lundi1Image from 'images/theatre/lundi-1.jpg';
-    import lundi2Image from 'images/theatre/lundi-2.jpg';
-    import lundi3Image from 'images/theatre/lundi-3.jpg';
-    import lundi4Image from 'images/theatre/lundi-4.jpg';
-    import lundi5Image from 'images/theatre/lundi-5.jpg';
-    import lundi6Image from 'images/theatre/lundi-6.jpg';
-    import lundi7Image from 'images/theatre/lundi-7.jpg';
-    import lundi8Image from 'images/theatre/lundi-8.jpg';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
+    import Meta from '$lib/Meta.svelte';
+    import ImagesDisplay from '$lib/ImagesDisplay.svelte';
+    import theatre1Image from '$lib/images/theatre/theatre-1.jpg';
+    import theatre2Image from '$lib/images/theatre/theatre-2.jpg';
+    import theatre3Image from '$lib/images/theatre/theatre-3.jpg';
+    import theatre4Image from '$lib/images/theatre/theatre-4.jpg';
+    import theatre5Image from '$lib/images/theatre/theatre-5.jpg';
+    import theatre6Image from '$lib/images/theatre/theatre-6.jpg';
+    import theatre7Image from '$lib/images/theatre/theatre-7.jpg';
+    import theatre8Image from '$lib/images/theatre/theatre-8.jpg';
+    import lundi1Image from '$lib/images/theatre/lundi-1.jpg';
+    import lundi2Image from '$lib/images/theatre/lundi-2.jpg';
+    import lundi3Image from '$lib/images/theatre/lundi-3.jpg';
+    import lundi4Image from '$lib/images/theatre/lundi-4.jpg';
+    import lundi5Image from '$lib/images/theatre/lundi-5.jpg';
+    import lundi6Image from '$lib/images/theatre/lundi-6.jpg';
+    import lundi7Image from '$lib/images/theatre/lundi-7.jpg';
+    import lundi8Image from '$lib/images/theatre/lundi-8.jpg';
 
     let Swiper, SwiperSlide;
 
     onMount(async () => {
-        const swiper = await import('../helpers/swiper');
+        const swiper = await import('$lib/swiper');
         Swiper = swiper.Swiper;
         SwiperSlide = swiper.SwiperSlide;
     });

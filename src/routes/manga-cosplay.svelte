@@ -1,13 +1,13 @@
 <script>
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
-    import Meta from '../components/Meta.svelte';
-    import ImagesDisplay from '../components/ImagesDisplay.svelte';
-    import manga1Image from 'images/manga/manga-1.jpg';
-    import manga2Image from 'images/manga/manga-2.jpg';
-    import manga3Image from 'images/manga/manga-3.jpg';
-    import manga4Image from 'images/manga/manga-4.jpg';
-    import manga5Image from 'images/manga/manga-5.jpg';
-    import manga6Image from 'images/manga/manga-6.jpg';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
+    import Meta from '$lib/Meta.svelte';
+    import ImagesDisplay from '$lib/ImagesDisplay.svelte';
+    import manga1Image from '$lib/images/manga/manga-1.jpg';
+    import manga2Image from '$lib/images/manga/manga-2.jpg';
+    import manga3Image from '$lib/images/manga/manga-3.jpg';
+    import manga4Image from '$lib/images/manga/manga-4.jpg';
+    import manga5Image from '$lib/images/manga/manga-5.jpg';
+    import manga6Image from '$lib/images/manga/manga-6.jpg';
 </script>
 
 

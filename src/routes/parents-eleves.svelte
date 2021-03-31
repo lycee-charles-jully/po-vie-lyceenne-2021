@@ -1,10 +1,10 @@
 <script>
-    import fcpeLogo from 'images/parents-eleves/logo-fcpe.png';
-    import ensemblesImage from 'images/parents-eleves/ensembles.png';
-    import profExpressLogo from 'images/parents-eleves/prof-express.jpg';
-    import projetsImage from 'images/parents-eleves/projets-pedagogiques.png';
-    import tableImage from 'images/parents-eleves/table.jpg';
-    import Meta from '../components/Meta.svelte';
+    import fcpeLogo from '$lib/images/parents-eleves/logo-fcpe.png';
+    import ensemblesImage from '$lib/images/parents-eleves/ensembles.png';
+    import profExpressLogo from '$lib/images/parents-eleves/prof-express.jpg';
+    import projetsImage from '$lib/images/parents-eleves/projets-pedagogiques.png';
+    import tableImage from '$lib/images/parents-eleves/table.jpg';
+    import Meta from '$lib/Meta.svelte';
 </script>
 
 

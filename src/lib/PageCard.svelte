@@ -47,7 +47,7 @@
 </style>
 
 
-<a href={href.endsWith('/') ? href : href + '/'} sapper:prefetch>
+<a href={href.endsWith('/') ? href : href + '/'} sveltekit:prefetch>
     <div class="container">
         <img {alt}
              src="cover-small/{image}.png"

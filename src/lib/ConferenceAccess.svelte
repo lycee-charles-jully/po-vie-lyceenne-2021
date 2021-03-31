@@ -1,5 +1,5 @@
 <script>
-    import conferenceIcon from 'icons/conference.svg';
+    import conferenceIcon from '$lib/icons/conference.svg';
 </script>
 
 

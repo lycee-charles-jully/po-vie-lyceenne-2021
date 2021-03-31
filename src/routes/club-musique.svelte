@@ -1,12 +1,12 @@
 <script>
-    import Meta from '../components/Meta.svelte';
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
-    import ImagesDisplay from '../components/ImagesDisplay.svelte';
-    import musique1Image from 'images/musique/musique-1.jpg';
-    import musique2Image from 'images/musique/musique-2.jpg';
-    import musique3Image from 'images/musique/musique-3.jpg';
-    import musique4Image from 'images/musique/musique-4.jpg';
-    import musique5Image from 'images/musique/musique-5.jpg';
+    import Meta from '$lib/Meta.svelte';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
+    import ImagesDisplay from '$lib/ImagesDisplay.svelte';
+    import musique1Image from '$lib/images/musique/musique-1.jpg';
+    import musique2Image from '$lib/images/musique/musique-2.jpg';
+    import musique3Image from '$lib/images/musique/musique-3.jpg';
+    import musique4Image from '$lib/images/musique/musique-4.jpg';
+    import musique5Image from '$lib/images/musique/musique-5.jpg';
 </script>
 
 

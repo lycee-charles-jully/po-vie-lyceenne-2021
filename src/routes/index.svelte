@@ -1,8 +1,8 @@
 <script>
-    import GroupCoverImage from '../components/GroupCoverImage.svelte';
-    import Meta from '../components/Meta.svelte';
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
-    import PageCard from '../components/PageCard.svelte';
+    import GroupCoverImage from '$lib/GroupCoverImage.svelte';
+    import Meta from '$lib/Meta.svelte';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
+    import PageCard from '$lib/PageCard.svelte';
 </script>
 
 

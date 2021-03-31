@@ -1,13 +1,13 @@
 <script>
-    import Meta from '../components/Meta.svelte';
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
-    import ImagesDisplay from '../components/ImagesDisplay.svelte';
-    import eco1Image from 'images/eco-delegues/eco-delegues-1.jpg';
-    import eco2Image from 'images/eco-delegues/eco-delegues-2.jpg';
-    import eco3Image from 'images/eco-delegues/eco-delegues-3.jpg';
-    import eco4Image from 'images/eco-delegues/eco-delegues-4.jpg';
-    import eco5Image from 'images/eco-delegues/eco-delegues-5.jpg';
-    import eco6Image from 'images/eco-delegues/eco-delegues-6.jpg';
+    import Meta from '$lib/Meta.svelte';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
+    import ImagesDisplay from '$lib/ImagesDisplay.svelte';
+    import eco1Image from '$lib/images/eco-delegues/eco-delegues-1.jpg';
+    import eco2Image from '$lib/images/eco-delegues/eco-delegues-2.jpg';
+    import eco3Image from '$lib/images/eco-delegues/eco-delegues-3.jpg';
+    import eco4Image from '$lib/images/eco-delegues/eco-delegues-4.jpg';
+    import eco5Image from '$lib/images/eco-delegues/eco-delegues-5.jpg';
+    import eco6Image from '$lib/images/eco-delegues/eco-delegues-6.jpg';
 </script>
 
 

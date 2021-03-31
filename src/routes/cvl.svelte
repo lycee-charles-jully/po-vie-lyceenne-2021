@@ -1,7 +1,7 @@
 <script>
-    import cvlImage from 'images/cvl.png';
-    import Meta from '../components/Meta.svelte';
-    import YoutubeEmbed from '../components/YoutubeEmbed.svelte';
+    import cvlImage from '$lib/images/cvl.png';
+    import Meta from '$lib/Meta.svelte';
+    import YoutubeEmbed from '$lib/YoutubeEmbed.svelte';
 </script>
 
 
